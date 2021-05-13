@@ -29,3 +29,12 @@ font-weight: bold;
 }
 
 
+.navigation-links {
+    display: flex;
+    justify-content: center;
+    }
+
+.navigation-links a {
+    margin: 20px;
+    font-size: 20px;
+}
