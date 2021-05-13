@@ -1,0 +1,34 @@
+body{
+margin: 120px 20px;
+}
+
+.title-image{
+    display: block;
+    margin: 0 auto;
+}
+
+.image-container{
+position: relative;
+text-align: center;
+display: block;
+}
+
+.image-container h1 {
+    color: white;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    font-size: 78px;
+    left: 0;
+    text-shadow: 1px 1px 20px black;
+}
+
+.intro-text p {
+font-size: 25px;
+font-weight: bold;
+}
+
+.navigation-links {
+display:flex;
+justify-content: center;
+}
