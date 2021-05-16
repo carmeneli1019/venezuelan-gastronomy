@@ -37,6 +37,10 @@ font-weight: bold;
 
 .navigation-link{
     text-align: center;
+
+}
+
+.navigation-link a{
     font-size: 20px;
 }
 
