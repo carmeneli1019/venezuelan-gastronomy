@@ -32,7 +32,6 @@ display: block;
 .intro-text {
 font-size: 25px;
 font-weight: bold;
-margin: 50px;
 padding: 20px;
 }
 
@@ -97,10 +96,11 @@ width: var(--item-max-width);
     
   .intro-text {
       margin: 0 auto;
+      font-size: 20px;
   }
 
     .intro-text, .gallery-item p {
-        font-size: 16px;
+        font-size: 18px;
     }
     
     .gallery-item {
