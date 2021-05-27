@@ -82,26 +82,27 @@ text-align: center;
 width: var(--item-max-width);
 }
 
-.about {
+.hero {
 max-width: 960px;
 margin: 0 auto;
 }
 
 
-.about p {
-  font-size: 24px;
+.hero p {
+  font-size: 20px;
 }
 
-.about h1{
+.hero h1{
     font-weight: bold;
     font-size: 72px;
+    margin-bottom: 100px;
 }
 
-.about h2 {
-    font-size: 64px;
+.hero h2 {
+    font-size: 60px;
 }
 
-.about h4{
+.hero h4{
     font-weight: bold;
     display: inline-block;
 }
