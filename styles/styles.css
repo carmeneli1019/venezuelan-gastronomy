@@ -45,7 +45,7 @@ padding: 20px;
     font-size: 20px;
 }
 
-h1, h2, p, a {
+h1, h2, p, a, h4 {
     font-family: 'Nunito', sans-serif;
 }
 
@@ -82,7 +82,29 @@ text-align: center;
 width: var(--item-max-width);
 }
 
+.about {
+max-width: 960px;
+margin: 0 auto;
+}
 
+
+.about p {
+  font-size: 24px;
+}
+
+.about h1{
+    font-weight: bold;
+    font-size: 72px;
+}
+
+.about h2 {
+    font-size: 64px;
+}
+
+.about h4{
+    font-weight: bold;
+    display: inline-block;
+}
 
 @media (max-width: 576px) {
     
