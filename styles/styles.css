@@ -8,6 +8,7 @@
 
 body{
 margin: 120px 20px;
+font-family: var(--font-family);
 }
 
 .title-image{
@@ -39,9 +40,7 @@ margin: 120px 20px;
 color: #007BFF;
 }
 
-h1, h2, p, a, h4, h3 {
-    font-family: var(--font-family);
-}
+
 
 h2 {
     text-align: center;
@@ -90,14 +89,6 @@ p {
     font-size: var(--text-default-size);
   }
 
-.hero h2 {
-    font-size: 60px;
-}
-
-.hero h4{
-    font-weight: bold;
-    display: inline-block;
-}
 
 .favorite-recipe-img {
 margin: 0 auto;
@@ -115,10 +106,6 @@ display: block;
     font-weight: bold;
 }
 
-.favorite-recipe h3 {
-    font-size: 36px;
-    text-align: center;
-}
 
 .favorite-recipe p{
     padding: 15px;
