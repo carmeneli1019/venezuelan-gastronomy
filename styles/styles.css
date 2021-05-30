@@ -20,14 +20,10 @@ font-family: var(--font-family);
 
 .navigation-link{
     text-align: center;
-
-}
-
-.navigation-link a, .footer-mail, .footer a{
     font-size: var(--text-default-size);
     padding: 10px 30px;
-    
 }
+
 
 .footer-mail {
     display: block;
@@ -123,10 +119,6 @@ display: block;
     padding: 30px 100px;
 }
 
-
-.footer i {
-    font-size: 40px;
-}
 
 a {
     transition: all 150ms ease-in-out;
