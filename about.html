@@ -50,16 +50,19 @@
         </div>
         </nav>
 
-        <div class="hero text-center">
-            <h1>About me</h1>
+        <div class="hero">
+            <h1 class="text-center">About me</h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <img src="/images/1622158354588.jpg" alt="Photo of Carmen Rosales"  class="img-fluid rounded shadow-sm">
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
+                        <div class="d-sm-block d-md-none mb-5">
+
+                        </div>
                         <h2 class="mb-5">Carmen Rosales</h2>
-                        <p class="mb-5">I'm a venezuelan living in Lisbon, Portugal. I discovered that I have a strong interest in learning front-end development techniques, so I created something that mixes two of my passions, my love for the coding world and the rich gastronomy of my country! </p>
+                        <p>I'm a venezuelan living in Lisbon, Portugal. I discovered that I have a strong interest in learning front-end development techniques, so I created something that mixes two of my passions, my love for the coding world and the rich gastronomy of my country! </p>
                     </div>
                 </div>
             </div>
@@ -68,19 +71,16 @@
         <h2 class="mb-5">Favorite Recipe</h2>
         <img src="/images/Marquesa-de-chocolate.jpg" alt="Photo of a marquesa"  class="favorite-recipe-img img-fluid rounded shadow-sm">
 
-        <div class="favorite-recipe mt-5 mb-3">
+        <div class="favorite-recipe">
             
             <div class="container">
                 <div class="row">
                 <h3 class="mt-5 mb-5 text-center">Marquesa de Chocolate</h3>
                 </div>
                 <div class="row">
-                    <div class="col"><h4>Ingredients</h4></div>
-                    <div class="col"><h4>Method</h4></div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col">
+                    <div class="col-md-6 mt-5">
+                        <div class="row"><h4>Ingredients</h4></div>
+                        <hr>
                         <div class="row">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">2 packages of Maria Cookies</li>
@@ -97,8 +97,10 @@
                               </ul>
                         </div>
                     </div>
-                    <div class="col">
-                         <div class="row">
+                    <div class="col-md-6 mt-5">
+                        <div class="row"><h4>Method</h4></div>
+                        <hr>
+                        <div class="row">
                             <p>In a heavy-bottomed pot place the milk, sugar and vanilla, when it is warm add the previously beaten egg yolks, stir constantly, do not stop stirring since the mixture must be homogeneous and the egg must be prevented from cooking for pieces and do not mix well.</p>
                         </div>
                         <div class="row">
@@ -108,12 +110,12 @@
                             <p>To put everything together, take a package of Maria cookies, and in a glass mold place first a layer of cookies previously soaked in milk, then a layer of pudding, continue layering until finishing with chocolate pudding, you can decorate with Chocolate rain or cookie pieces, there are also those who alternate sliced ​​and toasted almonds or chocolate chips with pudding and cookies, others dip the cookies in liquor, like most of our recipes, each one adds a personal and creative touch.</p>
                         </div>
                     </div>
-        
                 </div>
+                
             </div>
         </div>
     
-        <div class="footer bg-light shadow-sm mt-5">
+        <div class="footer bg-light rounded shadow-sm d-none d-md-block">
             <div class="d-flex justify-content-between">
                 <div>
                     <h2 class="mb-3 mt-3">Work Inquiry</h2>
@@ -123,8 +125,15 @@
                     <a href="/contact.html" class="btn btn-primary mt-4">Contact me</a>
                 </div>
             </div>
-          </div>
-          <a href="mailto:carmeneli1019@gmail.com" class="footer-mail mt-5 text-decoration-none ">carmeneli1019@gmail.com</a>
+        </div>
+
+        <div class="footer bg-light rounded d-sm-block d-md-none shadow-sm mt-5">
+            <h2>Work Inquiry</h2>
+            <p class="text-muted">Let's work together. </p>
+            <a href="/contact.html" class="btn btn-primary mt-4">Contact me</a>
+        </div>
+        
+          <a href="mailto:carmeneli1019@gmail.com" class="footer-mail mt-5 text-decoration-none  d-none d-md-block">carmeneli1019@gmail.com</a>
           <p class="mt-5 text-small text-muted text-center">This website was built by Carmen Rosales and is <a href="https://github.com/carmeneli1019/venezuelan-gastronomy" class="text-decoration-none" target="_blank">open-sourced.</a> </p>
 </body>
 </html>
