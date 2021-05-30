@@ -22,7 +22,7 @@ margin: 120px 20px;
 
 }
 
-.navigation-link a, .footer-mail{
+.navigation-link a, .footer-mail, .footer a{
     font-size: var(--text-default-size);
     padding: 10px 30px;
     
