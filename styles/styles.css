@@ -1,12 +1,13 @@
 :root {
    --item-max-width: 800px; 
-   --gallery-max-width: 1400px;
+   --content-container-max-width: 1400px;
    --font-family: 'Nunito', sans-serif;
 }
 
 
 body{
 margin: 120px 20px;
+text-align: center;
 }
 
 .title-image{
@@ -14,27 +15,6 @@ margin: 120px 20px;
     margin: 0 auto;
 }
 
-.image-container{
-position: relative;
-text-align: center;
-display: block;
-}
-
-.image-container h1 {
-    color: white;
-    position: absolute;
-    top: 40%;
-    right: 0;
-    font-size: 78px;
-    left: 0;
-    text-shadow: 1px 1px 20px black;
-}
-
-.intro-text {
-font-size: 25px;
-font-weight: bold;
-padding: 20px;
-}
 
 
 .navigation-link{
@@ -55,18 +35,18 @@ h2 {
     font-weight: bold;
     }
 
-.gallery {
-max-width: var(--gallery-max-width);
+.content-container {
+max-width: var(--content-container-max-width);
 padding: 0px;
 }
  
 
-.gallery-item {
+.content-container-item {
 padding: 20px;
 }
 
 
-.gallery-item p{
+.content-container-item p{
 font-size: 20px;
 max-width: var(--item-max-width);
 text-align: center;
@@ -79,7 +59,7 @@ text-align: center;
 
 }
 
-.gallery img{
+.content-container img{
 width: var(--item-max-width);
 }
 
@@ -89,15 +69,15 @@ margin: 0 auto 100px;
 }
 
 
-.hero p {
-  font-size: 20px;
-}
-
-.hero h1{
+h1{
     font-weight: bold;
     font-size: 72px;
-    margin-bottom: 100px;
+    margin: 0 auto 100px;
 }
+
+p {
+    font-size: 20px;
+  }
 
 .hero h2 {
     font-size: 60px;
@@ -150,13 +130,36 @@ display: block;
       font-size: 20px;
   }
 
-    .intro-text, .gallery-item p {
+    .intro-text, .content-container-item p {
         font-size: 18px;
     }
     
-    .gallery-item {
+    .content-container-item {
         padding: 10px;
     }
 
 }
 
+
+.image-container{
+    position: relative;
+    text-align: center;
+    display: block;
+    }
+    
+    .image-container h1 {
+        font-weight: normal;
+        color: white;
+        position: absolute;
+        top: 40%;
+        right: 0;
+        font-size: 78px;
+        left: 0;
+        text-shadow: 1px 1px 20px black;
+    }
+    
+    .intro-text {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    }
