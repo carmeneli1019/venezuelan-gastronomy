@@ -121,6 +121,21 @@ display: block;
     color: blue;
 }
 
+.contact {
+    max-width: var(--content-container-max-width);
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact a {
+    font-size: 30px;
+}
+
+.contact i {
+    font-size: 40px;
+}
+
 @media (max-width: 576px) {
     
     .image-container h1{
