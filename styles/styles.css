@@ -22,8 +22,21 @@ margin: 120px 20px;
 
 }
 
-.navigation-link a{
+.navigation-link a, .footer-mail{
     font-size: var(--text-default-size);
+    padding: 10px 30px;
+    
+}
+
+.footer-mail {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+}
+
+.footer-mail:hover {
+color: #007BFF;
 }
 
 h1, h2, p, a, h4, h3 {
@@ -59,7 +72,6 @@ max-width: var(--item-max-width);
     font-size: var(--text-default-size);
     text-align: center;
 }
-
 
 
 .hero {
@@ -117,23 +129,20 @@ display: block;
     color: black;
 }
 
-.icon-link :hover {
-    color: blue;
-}
-
-.contact {
+.footer {
     max-width: var(--content-container-max-width);
     margin: 0 auto;
     text-align: center;
-    padding: 20px;
+    padding: 30px 100px;
 }
 
-.contact a {
-    font-size: 30px;
-}
 
-.contact i {
+.footer i {
     font-size: 40px;
+}
+
+a {
+    transition: all 150ms ease-in-out;
 }
 
 @media (max-width: 576px) {
